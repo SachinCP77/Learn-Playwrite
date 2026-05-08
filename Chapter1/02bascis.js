@@ -1,1 +1,1 @@
-console.log("Node Version:",process.platform);
+console.log("Node Version:",process.version);
