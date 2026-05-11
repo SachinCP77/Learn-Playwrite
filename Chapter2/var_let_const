@@ -1,0 +1,10 @@
+var brow = "IE";
+var brow = "FF"; //redecrlation
+brow = "Chrome"; // re assignmemt
+console.log(brow)
+var testcase = ["lg", "lgout", "signup"];
+
+for (var i = 0; i < testcase.length; i++) {
+    console.log(testcase[i]);
+}
+console.log("counter", i);
