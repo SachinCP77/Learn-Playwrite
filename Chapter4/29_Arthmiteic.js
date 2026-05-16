@@ -1,0 +1,12 @@
+let a = 6;
+let b = 3;
+let sum = a + b;
+let subt = a - b;
+let mul = a * b;
+let div = a / b;
+let modu = 6 % 3;
+console.log(sum);
+console.log(subt);
+console.log(mul);
+console.log(div);
+console.log(modu);

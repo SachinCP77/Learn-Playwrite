@@ -20,6 +20,10 @@ This repository contains organized JavaScript examples and exercises for learnin
 │   ├── 23_null_undefined.js  # null vs undefined deep dive
 │   ├── 27_Strings.js         # String declarations and quotes
 │   └── 28_temp_litr.js       # Template literals and string interpolation
+├── Chapter4/                 # Operators - Arithmetic, Assignment & Comparison
+│   ├── 29_Arthmiteic.js      # Arithmetic operators (+, -, *, /, %)
+│   ├── 30_IntQ.js            # Assignment and exponentiation operators
+│   └── 31_Compari.js         # Comparison operators (<, >, >=, <=)
 └── js-identifiers-examples.js # Standalone comprehensive identifier examples
 ```
 
@@ -51,6 +55,11 @@ This repository contains organized JavaScript examples and exercises for learnin
 - **Strings**: Single quotes, double quotes, and best practices
 - **Template Literals**: Backtick syntax, string interpolation with `${expression}`, multi-line strings
 
+### Chapter 4: Operators
+- **Arithmetic Operators**: Addition, subtraction, multiplication, division, and modulo (`+`, `-`, `*`, `/`, `%`)
+- **Assignment & Exponentiation Operators**: `+=`, `-=`, `*=`, `/=`, and `**` (power operator)
+- **Comparison Operators**: Less than, greater than, greater than or equal to, less than or equal to (`<`, `>`, `>=`, `<=`)
+
 ## How to Use
 
 1. Clone the repository:
@@ -65,6 +74,9 @@ This repository contains organized JavaScript examples and exercises for learnin
    node Chapter2/let_host.js
    node Chapter3/23_null_undefined.js
    node Chapter3/28_temp_litr.js
+   node Chapter4/29_Arthmiteic.js
+   node Chapter4/30_IntQ.js
+   node Chapter4/31_Compari.js
    node js-identifiers-examples.js
    ```
 
