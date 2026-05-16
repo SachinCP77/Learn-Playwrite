@@ -12,7 +12,14 @@ This repository contains organized JavaScript examples and exercises for learnin
 ├── Chapter2/                 # Identifiers, Variables & Naming Conventions
 │   ├── Identifires.js        # Valid/invalid identifier rules and examples
 │   ├── Varbles.js            # Variable declarations and usage
-│   └── Caselist.js           # Naming case conventions (camelCase, PascalCase, snake_case, etc.)
+│   ├── Caselist.js           # Naming case conventions (camelCase, PascalCase, snake_case, etc.)
+│   ├── let_host.js           # let hoisting and undefined behavior
+│   └── let_hoist_block.js    # let block scoping and temporal dead zone
+├── Chapter3/                 # Data Types, Literals & Strings
+│   ├── 22_litreal.js         # Literals and typeof examples
+│   ├── 23_null_undefined.js  # null vs undefined deep dive
+│   ├── 27_Strings.js         # String declarations and quotes
+│   └── 28_temp_litr.js       # Template literals and string interpolation
 └── js-identifiers-examples.js # Standalone comprehensive identifier examples
 ```
 
@@ -24,6 +31,7 @@ This repository contains organized JavaScript examples and exercises for learnin
 ### Chapter 2: Identifiers & Naming
 - **Identifiers**: Rules for valid JavaScript names (letters, digits, `_`, `$`, Unicode)
 - **Variables**: Declaring and using variables
+- **let Hoisting & Block Scoping**: Understanding temporal dead zone and block-level declarations
 - **Naming Conventions**:
   - `camelCase` — variables, functions, methods
   - `PascalCase` — classes, constructors, components
@@ -33,6 +41,15 @@ This repository contains organized JavaScript examples and exercises for learnin
   - `Train-Case` — HTTP headers
   - `_leadingUnderscore` — private/internal members (convention)
   - `$leadingDollar` — DOM elements / special objects
+
+### Chapter 3: Data Types, Literals & Strings
+- **Literals**: Primitive value representations and `typeof` checks
+- **null vs undefined**:
+  - `undefined` — automatically assigned when a variable is declared but not initialized
+  - `null` — intentionally assigned to represent "no value" or "empty"
+  - Equality checks (`==` vs `===`)
+- **Strings**: Single quotes, double quotes, and best practices
+- **Template Literals**: Backtick syntax, string interpolation with `${expression}`, multi-line strings
 
 ## How to Use
 
@@ -45,6 +62,9 @@ This repository contains organized JavaScript examples and exercises for learnin
 2. Run any example file with Node.js:
    ```bash
    node Chapter2/Caselist.js
+   node Chapter2/let_host.js
+   node Chapter3/23_null_undefined.js
+   node Chapter3/28_temp_litr.js
    node js-identifiers-examples.js
    ```
 
