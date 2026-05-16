@@ -20,10 +20,13 @@ This repository contains organized JavaScript examples and exercises for learnin
 │   ├── 23_null_undefined.js  # null vs undefined deep dive
 │   ├── 27_Strings.js         # String declarations and quotes
 │   └── 28_temp_litr.js       # Template literals and string interpolation
-├── Chapter4/                 # Operators - Arithmetic, Assignment & Comparison
+├── Chapter4/                 # Operators - Arithmetic, Assignment, Comparison & Logical
 │   ├── 29_Arthmiteic.js      # Arithmetic operators (+, -, *, /, %)
 │   ├── 30_IntQ.js            # Assignment and exponentiation operators
-│   └── 31_Compari.js         # Comparison operators (<, >, >=, <=)
+│   ├── 31_Compari.js         # Comparison operators (<, >, >=, <=)
+│   ├── 32_loose_comp.js      # Loose vs strict equality (== vs ===) and type coercion
+│   ├── 33_Logical.js         # Logical operators (&&, ||, !)
+│   └── 34_Str_op.js          # String concatenation and assignment operators
 └── js-identifiers-examples.js # Standalone comprehensive identifier examples
 ```
 
@@ -59,6 +62,9 @@ This repository contains organized JavaScript examples and exercises for learnin
 - **Arithmetic Operators**: Addition, subtraction, multiplication, division, and modulo (`+`, `-`, `*`, `/`, `%`)
 - **Assignment & Exponentiation Operators**: `+=`, `-=`, `*=`, `/=`, and `**` (power operator)
 - **Comparison Operators**: Less than, greater than, greater than or equal to, less than or equal to (`<`, `>`, `>=`, `<=`)
+- **Loose vs Strict Equality**: Understanding `==` (type coercion) vs `===` (strict equality), common edge cases with `null`, `undefined`, `NaN`, booleans, and strings
+- **Logical Operators**: AND (`&&`), OR (`||`), and NOT (`!`)
+- **String Operations**: String concatenation using `+=`
 
 ## How to Use
 
@@ -77,6 +83,9 @@ This repository contains organized JavaScript examples and exercises for learnin
    node Chapter4/29_Arthmiteic.js
    node Chapter4/30_IntQ.js
    node Chapter4/31_Compari.js
+   node Chapter4/32_loose_comp.js
+   node Chapter4/33_Logical.js
+   node Chapter4/34_Str_op.js
    node js-identifiers-examples.js
    ```
 

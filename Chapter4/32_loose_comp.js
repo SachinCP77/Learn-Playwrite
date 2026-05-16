@@ -1,0 +1,30 @@
+console.log(42 == '42'); //loose comparison
+console.log(42 === '42'); //strict comparison
+console.log(5 == '5');
+console.log(5 === '5');
+console.log(5 === 5);
+console.log(5 == 5);
+console.log(0 == '');
+console.log(0 === '');
+console.log(true == '1');
+console.log(false == '0');
+console.log(true == 1);
+console.log(true == 2);
+console.log("" == "0");
+console.log(0 == "");
+console.log(0 == "0");
+console.log("" == "0");
+console.log("T", 0 == false);
+console.log(null == 0);
+console.log(null == undefined);
+console.log(null === undefined);
+console.log(0 === "");
+console.log(0 === "0");
+console.log("" === "0");
+console.log(null === false);
+console.log(null === true);
+console.log(null == undefined);
+console.log(null == 1);
+console.log(typeof NaN);
+console.log(5 != 5);
+console.log(5 !== '5');
