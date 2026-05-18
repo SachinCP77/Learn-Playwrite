@@ -26,7 +26,8 @@ This repository contains organized JavaScript examples and exercises for learnin
 │   ├── 31_Compari.js         # Comparison operators (<, >, >=, <=)
 │   ├── 32_loose_comp.js      # Loose vs strict equality (== vs ===) and type coercion
 │   ├── 33_Logical.js         # Logical operators (&&, ||, !)
-│   └── 34_Str_op.js          # String concatenation and assignment operators
+│   ├── 34_Str_op.js          # String concatenation and assignment operators
+│   └── 35_Turnaryop.js       # Ternary (conditional) operator and nested ternary examples
 └── js-identifiers-examples.js # Standalone comprehensive identifier examples
 ```
 
@@ -65,6 +66,7 @@ This repository contains organized JavaScript examples and exercises for learnin
 - **Loose vs Strict Equality**: Understanding `==` (type coercion) vs `===` (strict equality), common edge cases with `null`, `undefined`, `NaN`, booleans, and strings
 - **Logical Operators**: AND (`&&`), OR (`||`), and NOT (`!`)
 - **String Operations**: String concatenation using `+=`
+- **Ternary (Conditional) Operator**: Inline `condition ? valueIfTrue : valueIfFalse`, nested ternary patterns, and practical use cases (environment-based URLs, SLA checks, headless mode toggles)
 
 ## How to Use
 
@@ -86,6 +88,7 @@ This repository contains organized JavaScript examples and exercises for learnin
    node Chapter4/32_loose_comp.js
    node Chapter4/33_Logical.js
    node Chapter4/34_Str_op.js
+   node Chapter4/35_Turnaryop.js
    node js-identifiers-examples.js
    ```
 
