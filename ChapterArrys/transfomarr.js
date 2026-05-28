@@ -6,5 +6,5 @@ let passing = scores.filter(s => s > 70) //keeps elements that pass test
 console.log(passing);
 
 
-let total = scores.reduce((a, b) => a + b, 0)  //total
+let total = scores.reduce((a, b) => a + b, 0)  //gives total
 console.log(total);
