@@ -13,3 +13,10 @@ for (i = 0; i < testmatrix.length; i++) {
     console.log("\n");
 
 }
+
+testmatrix.forEach(row => {
+    row.forEach(
+        cell => process.stdout.write(cell + ",")
+    );
+    console.log("\n");
+});
